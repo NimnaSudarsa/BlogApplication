@@ -1,0 +1,74 @@
+.blog-detail-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .blog-detail-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .blog-content {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #444;
+    white-space: pre-wrap;
+  }
+  
+  .blog-author {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .blog-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-link {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .edit-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #b02a37;
+  }
+  
+  .loading-text {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 100px;
+    color: #666;
+  }
+  

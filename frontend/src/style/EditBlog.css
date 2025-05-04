@@ -1,0 +1,157 @@
+/* .edit-blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    padding: 40px 20px;
+  }
+  
+  .edit-blog-form {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .edit-blog-form h2 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .edit-blog-form label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+  }
+  
+  .edit-blog-form input,
+  .edit-blog-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+  }
+  
+  .edit-blog-form textarea {
+    min-height: 150px;
+  }
+  
+  .edit-blog-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .edit-blog-form button:hover {
+    background-color: #0056b3;
+  }
+   
+
+
+
+ */
+
+
+ /* Overlay background for the modal */
+.modal-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  padding: 20px;
+}
+
+/* Modal content styled like createblog form */
+.modal-content {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Form inside modal */
+.edit-blog-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: 500;
+}
+
+.edit-blog-form input,
+.edit-blog-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.edit-blog-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.edit-blog-form input:focus,
+.edit-blog-form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+.edit-blog-form button[type='submit'] {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-blog-form button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+/* Close button styling */
+.modal-content > button:last-child {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #6c757d;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal-content > button:last-child:hover {
+  background-color: #5a6268;
+}
